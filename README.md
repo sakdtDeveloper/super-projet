@@ -1,4 +1,4 @@
-### super-projet
+# super-projet
 
 ## Projet collaboratif
-#ajouter un fichier `.gitignore`
+### ajouter un fichier `.gitignore`
