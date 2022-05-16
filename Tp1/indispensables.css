@@ -1,0 +1,31 @@
+/* center un elmnt horizontalemnt parfaitemnt */
+
+
+/* si l'elemnt est en bloc  */
+.element-titre{
+    text-align: center;
+}
+
+/* si jamais il n'est pas en blockde base (img a span button) */
+.element-boite{
+    margin: 0 auto;
+    display: block;
+}
+
+/* ++++++++++++++++++++++Flex+++++++++++++++++++++++++ */
+
+/* centrer elmnt enfant unique */
+.parent-d-1-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*repartir equitablement sur la meme ligne des elements dans la page*/
+.parent-de-plusieurs-enfants{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ++++++++++++++++++++++Flex+++++++++++++++++++++++++ */
